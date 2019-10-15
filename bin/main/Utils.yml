@@ -1,0 +1,33 @@
+ tapp:
+  application:
+    token:
+      validity: 30
+    forgot-password:
+      link: http://trootechproducts.com:5595/tapp/api/forgot-password-process?fpToken={0}
+      validity: 7
+    user:
+      default-image: http://trootechproducts.com:5595/tapp/api/images/default-profile.jpg
+      profileImage: http://trootechproducts.com:5595/tapp/api/user/profile/image/
+      otp:
+        length: 6
+        validity: 1
+      token:
+        validity: 30
+    storage:
+      location: /opt/tapp/storage
+      report-folder: /report-files
+      no-image-name: /no-image.png
+      user-profiles: /user-profile
+    scoket:
+      base-path: /ws
+      chat-path: /chat
+    sms:
+      sid: ACbcc355d2b3ecde68787de72cbf29e04d
+      token: a1a509bd45815e1b1678fbebb7134f82
+      sender: 15406845848
+    snsconfiguration:
+      accesskey: AKIAJJ4ILJKHUTEYZSPA
+      secretkey: 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
+      region: us-east-1
+    push-notify:
+      title: TAPP
